@@ -9,7 +9,7 @@ cmd({
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{if(!isOwner) return
+try{if,(!isOwner)return}
 const {exec} = require("child_process")
 reply("restarting...")
 await sleep(1500)
